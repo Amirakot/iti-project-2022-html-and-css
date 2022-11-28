@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* style main secion */
+
+.social-media{
+    background-color: #373B44;
+   
+}
+.header{
+    display: flex;
+    color: aliceblue;
+   
+}
+.container{
+ width: 80%;
+   
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    
+}
+.firstul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding-right: 20px;
+ text-transform: uppercase; 
+ padding: 10px;  
+}
+.navbar-link a{
+color:white;
+
+}
+.linkmedia li a{
+background-color: #6c6e71;
+color: #474b53;
+font-size: 10px;
+margin-bottom: 5px;
+
+}
+li a:hover{
+    background-color: #FF7361;
+    padding: 10px 2px;
+    border-bottom: 1px solid #FF7361;
+}
+.active{
+    background-color: #FF7361;
+    padding: 10px 2px;
+    border-bottom: 1px solid #FF7361;
+}
+.wraper{
+    background-color:#2c3036 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.container{ width:85%;
+    margin: auto;}
+    .container2{
+        width: 70%;
+        margin: auto;
+    }
+    .herosection{
+         background-color: #FF7361;
+         color: white;
+         padding-top: 50px;
+         padding-bottom: 100px;
+        
+    }
+    .btn{
+        background-color: #373B44;
+        color: white;
+        padding: 5px;
+        padding: 10px;
+        border-radius: 3px;
+        border :1px solid transparent;
+    }
+    .d-flex {
+        display: flex;
+        /* justify-content: space-between; */
+       
+        
+    }
+   .main p{color: #F3F3F3;
+    margin-top: 30px;
+margin-bottom: 30px;}
+    /* .image-herosection{
+        width: 20%;
+    }
+    .image-herosection img{
+        width: 100%; 
+    } */
+
+
+/* style main secction */
+.section{background-color:#c8c6c6;}
+.card{
+
+    background-color: white;
+    width:45%;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+ 
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.icon{
+    font-size: 50px;
+    position: relative;
+    top: -11px;
+    padding-right: 4px;
+    color:#5b5a5a;
+}
+
+.card h2{
+    color: #6c6e71;
+}
+/* style of footer */
+.footer{
+background-color: #5b5a5a;
+
+}
+.list  li a {
+    color:#6c6e71;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.justify-content{
+    align-items: center;
+   justify-content: center;
+
+}
+/* end of footer */
