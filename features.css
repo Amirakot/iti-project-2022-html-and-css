@@ -143,7 +143,7 @@ li{
       margin-right: 10PX;
  
 }
-.bigplan{
+.bigplan:hover{
      background-color: #FF7361;
     color: #F2F4F1;
     transform: scale(1.2);
